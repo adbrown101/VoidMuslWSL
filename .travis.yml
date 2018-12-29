@@ -11,5 +11,5 @@ matrix:
       env: CC=clang
 
 script:
-- $(CC) testsizes.c
+- $CC testsizes.c
 - ./a.out
